@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "name": "Custom FOV",
+  "id": "custom-fov",
+  "version": "${version}",
+  "description": "A simple Fabric mod that changes the FOV setting limits.",
+  "authors": [
+    "seasnail"
+  ],
+  "contact": {
+    "sources": "https://github.com/beabail/custom-fov",
+    "issues": "https://github.com/beabail/custom-fov/issues"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/customfov/icon.png",
+  "environment": "client",
+  "accessWidener": "customfov.accesswidener",
+  "mixins": [
+    "customfov.mixins.json"
+  ],
+  "breaks": {
+    "feather": "*"
+  }
+}

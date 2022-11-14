@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "me.seasnail.customfov.mixin",
+  "client": [
+    "GameOptionsMixin",
+    "SimpleOptionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
