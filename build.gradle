@@ -43,7 +43,7 @@ remapJar {
 if (System.getenv("MODRINTH_TOKEN") != null) {
     modrinth {
         token = System.getenv("MODRINTH_TOKEN")
-        projectId = 'HcQm24Te'
+        projectId = "HcQm24Te"
         versionNumber = version
         uploadFile = remapJar
         gameVersions = [project.minecraft_version]
