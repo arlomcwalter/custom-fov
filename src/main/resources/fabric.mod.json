@@ -4,20 +4,20 @@
   "id": "custom-fov",
   "version": "${version}",
   "description": "A simple Fabric mod that changes the FoV setting limits.",
-  "authors": [
-    "seasnail"
-  ],
+  "authors": [ "seasnail" ],
   "contact": {
-    "sources": "https://github.com/seasnale/custom-fov",
-    "issues": "https://github.com/seasnale/custom-fov/issues"
+    "sources": "https://github.com/arlomcwalter/custom-fov",
+    "issues": "https://github.com/arlomcwalter/custom-fov/issues"
   },
   "license": "GPL-3.0",
-  "icon": "assets/customfov/icon.png",
+  "icon": "assets/custom-fov/icon.png",
   "environment": "client",
-  "accessWidener": "customfov.accesswidener",
-  "mixins": [
-    "customfov.mixins.json"
-  ],
+  "mixins": [ "custom-fov.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
   "breaks": {
     "feather": "*"
   }
